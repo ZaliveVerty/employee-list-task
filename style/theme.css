@@ -139,9 +139,9 @@
 
     --round-button-text-color: white;
     --round-button-background: black;
-    --round-button-background-hover: #4a3d47;
-    --round-button-background-active: #5d4a57;
-    --round-button-background-active-dark: #6f5c69;
+    --round-button-background-hover: rgba(70, 70, 70, 1);
+    --round-button-background-active: rgba(100, 100, 100, 1);
+    --round-button-background-active-dark: rgba(100, 100, 100, 1);
     --round-button-background-shine: none;
     --round-button-border-width: 2px;
     --round-button-border-color: white;
@@ -180,9 +180,9 @@
 
     --round-button-text-color: black;
     --round-button-background: #FFF86E;
-    --round-button-background-hover: #4a3d47;
-    --round-button-background-active: #5d4a57;
-    --round-button-background-active-dark: #6f5c69;
+    --round-button-background-hover: rgba(120, 120, 120, 1);
+    --round-button-background-active: rgba(160, 160, 160, 1);
+    --round-button-background-active-dark: rgba(160, 160, 160, 1);
     --round-button-background-shine: none;
     --round-button-border-width: 2px;
     --round-button-border-color: yellow;
@@ -222,9 +222,9 @@
 
     --round-button-text-color: yellow;
     --round-button-background: black;
-    --round-button-background-hover: #4a3d47;
-    --round-button-background-active: #5d4a57;
-    --round-button-background-active-dark: #6f5c69;
+    --round-button-background-hover: rgba(70, 70, 70, 1);
+    --round-button-background-active: rgba(100, 100, 100, 1);
+    --round-button-background-active-dark: rgba(100, 100, 100, 1);
     --round-button-background-shine: none;
     --round-button-border-width: 2px;
     --round-button-border-color: yellow;
