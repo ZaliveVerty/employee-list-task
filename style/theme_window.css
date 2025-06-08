@@ -22,11 +22,11 @@
 }
 
 .theme-button:hover {
-    background-color: var(--form-button-background-hover);
+    background-color: var(--round-button-background-hover);
 }
 
 .theme-button:active {
-    background: linear-gradient(135deg, var(--form-button-background-active), var(--form-button-background-active-dark));
+    background: linear-gradient(135deg, var(--round-button-background-active), var(--round-button-background-active-dark));
     transform: translateY(1px);
     box-shadow: none
 }

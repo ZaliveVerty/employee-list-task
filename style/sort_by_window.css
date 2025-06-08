@@ -1,19 +1,17 @@
 @import url('template/floating_window.css');
 
 #sort-window {
-    background: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(32px);
     padding: 0rem;
     overflow: hidden;
 }
 
-.sortButton {
+.sort-button {
     position: relative;
     padding: 0.7rem 1rem;
     padding-left: 2rem;
 }
 
-.sortButton.sort-asc::before {
+.sort-button.sort-asc::before {
     content: "▲";
     position: absolute;
     left: 0.6rem;
@@ -21,7 +19,7 @@
     transform: translateY(-50%);
 }
 
-.sortButton.sort-desc::before {
+.sort-button.sort-desc::before {
     content: "▼";
     position: absolute;
     left: 0.6rem;
@@ -29,7 +27,7 @@
     transform: translateY(-50%);
 }
 
-.sortButton {
+.sort-button {
     background-color: transparent;
     border: none;
     display: flex;
@@ -37,7 +35,7 @@
     width: 100%;
     font-size: 1rem;
     color: var(--text-color);
-    font-family: 'Arial', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-family);
     flex: 1;
     transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
             opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1),
@@ -45,12 +43,12 @@
             border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.sortButton:hover {
-    background-color: var(--form-button-background-hover);
+.sort-button:hover {
+    background-color: var(--round-button-background-hover);
 }
 
-.sortButton:active {
-    background: linear-gradient(135deg, var(--form-button-background-active), var(--form-button-background-active-dark));
+.sort-button:active {
+    background: linear-gradient(135deg, var(--round-button-background-active), var(--round-button-background-active-dark));
     transform: translateY(1px);
     box-shadow: none
 }

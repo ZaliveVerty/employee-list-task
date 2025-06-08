@@ -1,16 +1,16 @@
 .round-button {
-    font-family: 'Arial', Tahoma, Geneva, Verdana, sans-serif;
-    background: var(--form-button-background);
-    color: var(--form-button-text-color);
+    font-family: var(--font-family);
+    background: var(--round-button-background);
+    color: var(--round-button-text-color);
     padding: 0.7rem 1rem;
-    border-width: var(--form-button-border-width);
-    border-color: var(--form-button-border-color);
+    border-width: var(--round-button-border-width);
+    border-color: var(--round-button-border-color);
     border-radius: 1.1rem;
     cursor: pointer;
     font-weight: 500;
     font-size: 0.95rem;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0 0.03rem 0.07rem var(--form-button-background-active);
+    box-shadow: 0 0.03rem 0.07rem var(--round-button-background-active);
     position: relative;
     overflow: hidden;
     display: flex;
@@ -23,6 +23,7 @@
     width: 1.1rem;
     height: 1.1rem;
     flex-shrink: 0;
+    filter: brightness(var(--icon-brightness));
 }
 
 .round-button::before {
@@ -32,7 +33,7 @@
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, var(--form-button-background-shine), transparent);
+    background: linear-gradient(90deg, transparent, var(--round-button-background-shine), transparent);
     transition: left 1s;
 }
 
@@ -41,13 +42,13 @@
 }
 
 .round-button:hover {
-    background: linear-gradient(135deg, var(--form-button-background-hover), var(--form-button-background-active));
+    background: linear-gradient(135deg, var(--round-button-background-hover), var(--round-button-background-active));
     transform: translateY(0.05rem);
-    box-shadow: 0 0.075rem 0.3rem var(--form-button-background-active);
+    box-shadow: 0 0.075rem 0.3rem var(--round-button-background-active);
 }
 
 .round-button:active {
-    background: linear-gradient(135deg, var(--form-button-background-active), var(--form-button-background-active-dark));
+    background: linear-gradient(135deg, var(--round-button-background-active), var(--round-button-background-active-dark));
     transform: translateY(1px);
     box-shadow: none
 }

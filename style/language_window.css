@@ -22,11 +22,15 @@
 }
 
 .language-button:hover {
-    background-color: var(--form-button-background-hover);
+    background-color: var(--round-button-background-hover);
 }
 
 .language-button:active {
-    background: linear-gradient(135deg, var(--form-button-background-active), var(--form-button-background-active-dark));
+    background: linear-gradient(135deg, var(--round-button-background-active), var(--round-button-background-active-dark));
     transform: translateY(1px);
     box-shadow: none
+}
+
+.theme-button-icon {
+    filter: brightness(var(--icon-brightness));
 }

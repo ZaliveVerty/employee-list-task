@@ -100,7 +100,7 @@ function sortTable(columnIndex) {
 }
 
 function updateSortButtons(activeIndex, isAscending) {
-    const buttons = document.querySelectorAll('.sortButton');
+    const buttons = document.querySelectorAll('.sort-button');
     buttons.forEach((button, index) => {
         button.classList.remove('sort-asc', 'sort-desc');
         if (index == activeIndex) {
@@ -115,7 +115,7 @@ var sortWindow = new FloatingWindow(
     document.getElementById('sort-window')
 );
 
-document.querySelectorAll('.floating-window .sortButton').forEach(button => {
+document.querySelectorAll('.floating-window .sort-button').forEach(button => {
     button.addEventListener('click', function() {
         sortTable(this.value);
     });
