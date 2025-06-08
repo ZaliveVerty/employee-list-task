@@ -56,6 +56,11 @@ body {
     margin-bottom: 2rem;
 }
 
+.search-container {
+    position: relative;
+    width: 100%;
+}
+
 #table-div {
     min-width: min-content;
     margin: 6rem auto 0 auto;
@@ -119,13 +124,13 @@ tr:not(:first-child) {
 
 .detail-row {
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    background: rgba(248, 248, 248, 1);
-    color: black;
+    background: var(--table-detail-row-background);
+    color: var(--text-color);
 }
 
 .detail-row:hover {
-    background: #EAD5E7;
-    color: black;
+    background: var(--table-detail-row-background-hover);
+    color: var(--text-color);
 }
 
 .detail-row {
@@ -133,7 +138,7 @@ tr:not(:first-child) {
 }
 
 .highlight {
-    background-color: yellow;
+    background-color: var(--highlight-color);
     font-weight: bold;
 }
 

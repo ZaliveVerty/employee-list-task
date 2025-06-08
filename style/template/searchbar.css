@@ -1,25 +1,21 @@
-.search-container {
-    position: relative;
-    width: 100%;
-}
-
-.search-input {
+.searchbar {
     font-family: 'Arial', Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
     padding: 0.58rem 1rem;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: var(--searchbar-background);
     border-width: 2px;
     border-color: var(--round-button-border-color);
     border-radius: 1.1rem;
+    color: var(--text-color);
     font-size: 0.95rem;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0 0.03rem 0.07rem var(--round-button-background-active);
 }
 
-.search-input:focus {
+.searchbar:focus {
     border-color: var(--accent-color);
     outline: none;
-    background-color: white;
+    background-color: var(--searchbar-background-focus);
 }
 
 .search-icon {

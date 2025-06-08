@@ -2,10 +2,11 @@
     font-family: 'Arial', Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
     padding: 0.4rem 0.6rem;
-    background-color: rgba(255, 255, 255, 1);
+    background: var(--textbox-background);
     border-width: 2px;
     border-color: var(--round-button-border-color);
     border-radius: 0.3rem;
+    color: var(--text-color);
     font-size: 0.9rem;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0 0.03rem 0.07rem var(--round-button-background-active);
@@ -14,5 +15,5 @@
 .filter-search-input:focus {
     border-color: var(--accent-color);
     outline: none;
-    background-color: white;
+    background: var(--textbox-background-focus);
 }

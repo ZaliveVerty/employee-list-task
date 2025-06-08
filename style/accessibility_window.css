@@ -21,7 +21,7 @@
 .font-size-button {
     padding: 0.7rem 0.7rem;
     border: 1px solid #888888;
-    background-color: white;
+    background-color: var(--accessibility-window-font-size-background);
     border-radius: 0.16rem;
     display: flex;
     cursor: pointer;

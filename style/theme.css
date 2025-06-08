@@ -3,6 +3,7 @@
     --text-color: black;
     --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     --font-family: 'Arial', Tahoma, Geneva, Verdana, sans-serif;
+    --highlight-color: yellow;
 
     --background:
         linear-gradient(135deg, rgba(139, 69, 193, 0.28) 0%, rgba(139, 69, 193, 0.12) 25%, transparent 55%), 
@@ -45,6 +46,16 @@
     --table-row-even-background: white;
     --table-text-color: black;
     --table-inter-border: 1px solid #ddd;
+    --table-detail-row-background: rgba(248, 248, 248, 1);
+    --table-detail-row-background-hover: #EAD5E7;
+
+    --searchbar-background: rgba(255, 255, 255, 0.8);
+    --searchbar-background-focus: white;
+
+    --textbox-background: white;
+    --textbox-background-focus: white;
+
+    --accessibility-window-font-size-background: white;
 }
 
 [data-theme="light"] {
@@ -55,6 +66,7 @@
     --accent-color: #8e4585;
     --text-color: #e0e0e0;
     --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --highlight-color: rgba(255, 128, 0, 1);
 
     --background:
         linear-gradient(135deg, rgba(139, 69, 193, 0.2) 0%, rgba(139, 69, 193, 0.08) 25%, transparent 55%), 
@@ -83,12 +95,12 @@
     --icon-brightness: 0.85;
     --icon-brightness-hover: 0.5;
 
-    --round-button-text-color: black;
-    --round-button-background: white;
-    --round-button-background-hover: #caacc5;
-    --round-button-background-active: #bb90b5;
-    --round-button-background-active-dark: #a1719c;
-    --round-button-background-shine: rgba(255, 255, 255, 0.7);
+    --round-button-text-color: white;
+    --round-button-background: #2a2a2a;
+    --round-button-background-hover: #4a3d47;
+    --round-button-background-active: #5d4a57;
+    --round-button-background-active-dark: #6f5c69;
+    --round-button-background-shine: rgba(255, 255, 255, 0.1);
     --round-button-border-width: 0px;
     --round-button-border-color: transparent;
 
@@ -97,6 +109,16 @@
     --table-row-even-background: rgba(40, 40, 40, 1);
     --table-text-color: white;
     --table-inter-border: 1px solid #444444;
+    --table-detail-row-background: rgba(60, 60, 60, 1);
+    --table-detail-row-background-hover: rgba(80, 80, 80, 1);
+
+    --searchbar-background: rgba(40, 40, 40, 1);
+    --searchbar-background-focus: rgba(20, 20, 20, 1);
+
+    --textbox-background: rgba(40, 40, 40, 1);
+    --textbox-background-focus: rgba(40, 40, 40, 1);
+
+    --accessibility-window-font-size-background: rgba(50, 50, 50, 1);
 }
 
 [data-theme="contrast-dark"] {
