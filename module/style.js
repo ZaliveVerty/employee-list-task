@@ -1,3 +1,4 @@
+// Controls the behaviour of floating windows. Such as clicking outside of it, opening, closing, etc.
 class FloatingWindow {
     constructor(document, triggerButton, window) {
         this.document = document;
@@ -166,6 +167,7 @@ var styleWindow = new FloatingWindow (
     document.getElementById('theme-window')
 );
 
+// Goes through all theme buttons in the theme floating window and extracts their theme ids and sets the click event listener
 document.querySelectorAll('.floating-window .theme-button').forEach(button => {
     button.addEventListener('click', function() {
         applyTheme(this.value);

@@ -1,3 +1,4 @@
+// I tried to make the system modular where each component (module) and all their behaviours are in one imported file. 
 import './language/language.js';
 import { FloatingWindow, setFont, applyTheme } from './style.js';
 import { employeesReady } from './api/api.js';

@@ -20,11 +20,13 @@ function removeHighlights(element) {
     });
 }
 
+// I wanted to refactor this function since it's quite long but I ran out of time
 function searchTable() {
     const searchInput = document.getElementById('table-search').value.toLowerCase().trim();
     let searchTerm = searchInput;
     let targetColumnId = null;
 
+    // This is important for searching by specific column
     if (searchTerm.includes(':')) {
         const colonIndex = searchTerm.indexOf(':');
         const potentialColumnId = searchTerm.substring(0, colonIndex);
@@ -80,8 +82,6 @@ function searchTable() {
         }
 
         const detailRow = document.querySelector(`tr[data-employee-id="${employeeId}"]`);
-        console.log(detailRow);
-
         if (rowMatches || searchTerm === '') {
             row.style.display = '';
             if (detailRow) {

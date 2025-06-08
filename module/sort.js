@@ -109,7 +109,7 @@ function updateSortButtons(activeIndex, isAscending) {
     });
 }
 
-var sortWindow = new FloatingWindow(
+new FloatingWindow (
     document,
     document.getElementById('sort-button'),
     document.getElementById('sort-window')

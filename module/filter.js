@@ -140,8 +140,6 @@ document.getElementById("apply-filter-button").addEventListener('click', functio
     filterTable(document.getElementById("employee-table"), filter);
 });
 
-var filteredEmployees = new Set();
-
 function filterTable(table, filter) {
     const rows = table.querySelectorAll('.employee-row');
     
@@ -152,7 +150,6 @@ function filterTable(table, filter) {
         const employee = employees.find(emp => emp.id == employeeId);
         const shouldShow = employee ? filter.filter(employee) : false;
         
-        filteredEmployees.add(employeeId);
         if (shouldShow) {
             row.style.display = 'table-row';
             detailRow.style.display = 'none';

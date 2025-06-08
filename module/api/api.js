@@ -1,3 +1,5 @@
+// In a real world scenario this module should be called EmployeeAPI or something similar and contains async get methods that call the API itself and returns the results. Preferrably with some authorization protocol like OAuth2 for different roles, e.g. accountants may be allowed to issue payroll, managers may be allowed to add/remove employees and regular employees may be only alloed to see stuff.
+
 class Employee {
     constructor(id, name, title, email, startDate) {
         this.id = id;
