@@ -29,6 +29,7 @@ class LanguagePack {
         this.languages = new Map();
         this.customTranslations = new Map();
         this.loaded = false;
+        this.currentLanguageId = "";
     }
 
     async load() {
@@ -75,6 +76,8 @@ class LanguagePack {
             console.error(`Language '${id}' not found.`);
             return;
         }
+
+        this.currentLanguageId = id;
 
         this.currentLanguage = id;
         const language = this.languages.get(id);
@@ -138,6 +141,8 @@ ready.then(() => {
 
         languageWindowDiv.appendChild(button);
     });
+
+    languagePack.setUiLanguage("en");
 });
 
 export { Language, LanguagePack, languagePack, ready };

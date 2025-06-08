@@ -1,4 +1,4 @@
-import  { languagePack, ready } from './language/language.js';
+import  { languagePack } from './language/language.js';
 
 // Controls the behaviour of floating windows. Such as clicking outside of it, opening, closing, etc.
 class FloatingWindow {
@@ -173,6 +173,7 @@ var styleWindow = new FloatingWindow (
 document.querySelectorAll('.floating-window .theme-button').forEach(button => {
     button.addEventListener('click', function() {
         document.getElementById('theme-button-text').setAttribute("language-code", `home.titlebar.theme.${this.value}.selected`);
+        languagePack.setUiLanguage(languagePack.currentLanguageId);
         applyTheme(this.value);
         styleWindow.closeFloatingWindow();
     });
