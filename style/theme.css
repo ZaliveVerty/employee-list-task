@@ -92,7 +92,7 @@
     --floating-window-border: 1px solid transparent;
     --floating-window-border-radius: 0.7rem;
 
-    --icon-brightness: 0.85;
+    --icon-brightness: 0.95;
     --icon-brightness-hover: 0.5;
 
     --round-button-text-color: white;
@@ -122,13 +122,126 @@
 }
 
 [data-theme="contrast-dark"] {
+    --accent-color: rgba(40, 40, 40, 1);
+    --text-color: white;
+    --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
+    --background: black;
+    --toolbar-background:
+        rgba(20, 20, 20, 1);
+
+    --floating-window-background: rgba(0, 0, 0, 1);
+    --floating-window-border: 1px solid white;
+    --floating-window-border-radius: 0rem;
+
+    --icon-brightness: 1;
+    --icon-brightness-hover: 0.5;
+
+    --round-button-text-color: white;
+    --round-button-background: black;
+    --round-button-background-hover: #4a3d47;
+    --round-button-background-active: #5d4a57;
+    --round-button-background-active-dark: #6f5c69;
+    --round-button-background-shine: none;
+    --round-button-border-width: 2px;
+    --round-button-border-color: white;
+
+    --table-header-background: black;
+    --table-row-odd-background: rgba(30, 30, 30, 1);
+    --table-row-even-background: black;
+    --table-text-color: white;
+    --table-inter-border: 1px solid white;
+    --table-detail-row-background: black;
+    --table-detail-row-background-hover: black;
+
+    --searchbar-background: black;
+    --searchbar-background-focus: black;
+
+    --textbox-background: black;
+    --textbox-background-focus: black;
+
+    --accessibility-window-font-size-background: black;
 }
 
 [data-theme="yellow"] {
+    --accent-color: #4C4A21;
+    --text-color: black;
+    --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
+    --background: #FFF86E;
+    --toolbar-background: #FFF86E;
+
+    --floating-window-background: #FFF86E;
+    --floating-window-border: 1px solid black;
+    --floating-window-border-radius: 0rem;
+
+    --icon-brightness: 0;
+    --icon-brightness-hover: 0.7;
+
+    --round-button-text-color: black;
+    --round-button-background: #FFF86E;
+    --round-button-background-hover: #4a3d47;
+    --round-button-background-active: #5d4a57;
+    --round-button-background-active-dark: #6f5c69;
+    --round-button-background-shine: none;
+    --round-button-border-width: 2px;
+    --round-button-border-color: yellow;
+
+    --table-header-background: #FFF86E;
+    --table-row-odd-background: #FFF86E;
+    --table-row-even-background: #FFF86E;
+    --table-text-color: black;
+    --table-inter-border: 1px solid black;
+    --table-detail-row-background: #FFF86E;
+    --table-detail-row-background-hover: #E2DC63;
+
+    --searchbar-background: #FFF86E;
+    --searchbar-background-focus: #FFF86E;
+
+    --textbox-background: #FFF86E;
+    --textbox-background-focus: #FFF86E;
+
+    --accessibility-window-font-size-background: transparent;
 }
 
 [data-theme="contrast-yellow"] {
+    --accent-color: yellow;
+    --text-color: yellow;
+    --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
+    --background: black;
+    --toolbar-background:
+        rgba(20, 20, 20, 1);
+
+    --floating-window-background: rgba(0, 0, 0, 1);
+    --floating-window-border: 1px solid yellow;
+    --floating-window-border-radius: 0rem;
+
+    --icon-brightness: 1;
+    --icon-brightness-hover: 0.5;
+
+    --round-button-text-color: yellow;
+    --round-button-background: black;
+    --round-button-background-hover: #4a3d47;
+    --round-button-background-active: #5d4a57;
+    --round-button-background-active-dark: #6f5c69;
+    --round-button-background-shine: none;
+    --round-button-border-width: 2px;
+    --round-button-border-color: yellow;
+
+    --table-header-background: black;
+    --table-row-odd-background: rgba(30, 30, 30, 1);
+    --table-row-even-background: black;
+    --table-text-color: yellow;
+    --table-inter-border: 1px solid yellow;
+    --table-detail-row-background: black;
+    --table-detail-row-background-hover: black;
+
+    --searchbar-background: black;
+    --searchbar-background-focus: black;
+
+    --textbox-background: black;
+    --textbox-background-focus: black;
+
+    --accessibility-window-font-size-background: black;
 }
