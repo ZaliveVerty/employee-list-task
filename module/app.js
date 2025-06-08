@@ -14,12 +14,14 @@ var accessibilityWindow = new FloatingWindow(
 document.querySelectorAll('.font-size-buttons .font-size-button').forEach(button => {
     button.addEventListener('click', function() {
         setFont(this.value);
+        accessibilityWindow.closeFloatingWindow();
     });
 });
 
 document.querySelectorAll('.contrast-buttons .contrast-button').forEach(button => {
     button.addEventListener('click', function() {
         applyTheme(this.value);
+        accessibilityWindow.closeFloatingWindow();
     });
 });
 
@@ -75,7 +77,6 @@ function addEmployeeToTable(employee, table) {
         }
     });
 
-    // Add both rows to table
     table.appendChild(row);
     table.appendChild(detailRow);
 }

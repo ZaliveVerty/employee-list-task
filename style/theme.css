@@ -125,6 +125,7 @@
     --accent-color: rgba(40, 40, 40, 1);
     --text-color: white;
     --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --highlight-color: rgba(255, 128, 0, 1);
 
     --background: black;
     --toolbar-background:
@@ -167,6 +168,7 @@
     --accent-color: #4C4A21;
     --text-color: black;
     --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --highlight-color: white;
 
     --background: #FFF86E;
     --toolbar-background: #FFF86E;
@@ -208,6 +210,7 @@
     --accent-color: yellow;
     --text-color: yellow;
     --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --highlight-color: rgba(255, 128, 0, 1);
 
     --background: black;
     --toolbar-background:
