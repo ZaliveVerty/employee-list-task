@@ -1,5 +1,5 @@
 .searchbar {
-    font-family: 'Arial', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-family);
     width: 100%;
     padding: 0.58rem 1rem;
     background-color: var(--searchbar-background);

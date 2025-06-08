@@ -1,5 +1,5 @@
 .filter-search-input {
-    font-family: 'Arial', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-family);
     width: 100%;
     padding: 0.4rem 0.6rem;
     background: var(--textbox-background);

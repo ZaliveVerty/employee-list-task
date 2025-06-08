@@ -59,7 +59,7 @@
 }
 
 [data-theme="light"] {
-    
+    --icon-brightness: 0.06;
 }
 
 [data-theme="dark"] {
