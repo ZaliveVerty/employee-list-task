@@ -1,5 +1,5 @@
 import './language/language.js';
-import { FloatingWindow } from './style.js';
+import { FloatingWindow, setFont, applyTheme } from './style.js';
 import { employeesReady } from './api/api.js';
 import './filter.js';
 import './sort.js';

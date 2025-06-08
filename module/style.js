@@ -173,4 +173,4 @@ document.querySelectorAll('.floating-window .theme-button').forEach(button => {
     });
 });
 
-export { FloatingWindow };
+export { FloatingWindow, setFont, applyTheme };
