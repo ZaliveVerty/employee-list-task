@@ -1,0 +1,33 @@
+.search-container {
+    position: relative;
+    width: 100%;
+}
+
+.search-input {
+    font-family: 'Arial', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    padding: 0.58rem 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-width: 2px;
+    border-color: var(--form-button-border-color);
+    border-radius: 1.1rem;
+    font-size: 0.95rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 0.03rem 0.07rem var(--form-button-background-active);
+}
+
+.search-input:focus {
+    border-color: var(--accent-color);
+    outline: none;
+    background-color: white;
+}
+
+.search-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.95rem;
+    color: #666;
+    pointer-events: none;
+}

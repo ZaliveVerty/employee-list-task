@@ -1,0 +1,112 @@
+:root {
+    --accent-color: #8e4585;
+    --text-color: black;
+    --form-button-text-color: black;
+    --form-button-background: white;
+    --form-button-background-hover: #caacc5;
+    --form-button-background-active: #bb90b5;
+    --form-button-background-active-dark: #a1719c;
+    --form-button-background-shine: rgba(255, 255, 255, 0.7);
+    --form-button-border-width: 0px;
+    --form-button-border-color: transparent;
+    --config-button-brightness: 0.05;
+    --config-button-brightness-hover: 1;
+    --floating-window-background:
+        rgba(255, 255, 255, 1);
+    --floating-window-border-color: #ccc;
+    --background:
+        linear-gradient(135deg, rgba(139, 69, 193, 0.28) 0%, rgba(139, 69, 193, 0.12) 25%, transparent 55%), 
+        linear-gradient(225deg, rgba(59, 130, 246, 0.24) 0%, rgba(59, 130, 246, 0.08) 30%, transparent 50%), 
+        radial-gradient(ellipse at 50% 30%, rgba(236, 72, 153, 0.16) 0%, rgba(236, 72, 153, 0.06) 35%, rgba(236, 72, 153, 0.02) 55%, transparent 75%), 
+        radial-gradient(ellipse at 80% 0%, rgba(16, 185, 129, 0.14) 0%, rgba(16, 185, 129, 0.04) 35%, transparent 60%), 
+        radial-gradient(ellipse at 20% 100%, rgba(139, 69, 193, 0.12) 0%, rgba(139, 69, 193, 0.03) 45%, transparent 70%), 
+        linear-gradient(270deg, rgba(59, 130, 246, 0.08) 0%, rgba(59, 130, 246, 0.02) 20%, transparent 40%), 
+        radial-gradient(ellipse at 75% 60%, rgba(168, 85, 247, 0.06) 0%, transparent 50%),
+        white;
+    --background-size: 100% 100%
+}
+
+[data-theme="light"] {
+    
+}
+
+[data-theme="dark"] {
+    --accent-color: white;
+    --text-color: #e0e0e0;
+    --form-button-text-color: #e0e0e0;
+    --form-button-background: #2f2f2f;
+    --form-button-background-hover: #444;
+    --form-button-background-active: #555;
+    --form-button-background-active-dark: #3b3b3b;
+    --form-button-background-shine: rgba(255, 255, 255, 0.1);
+    --form-button-border-width: 0px;
+    --form-button-border-color: transparent;
+    --config-button-brightness: 0.85;
+    --config-button-brightness-hover: 0.5;
+    --floating-window-background:
+        rgba(50, 50, 50, 0.8);
+    --floating-window-border-color: #555555;
+    --background:
+        radial-gradient(ellipse 150% 80% at 50% 0%, #5a5a5a 0%, #464646 20%, #353535 40%, #282828 60%, #1a1a1a 100%);
+    --background-size: 100% 100%;
+}
+
+[data-theme="contrast-dark"] {
+    --accent-color: white;
+    --text-color: white;
+    --form-button-text-color: white;
+    --form-button-background: black;
+    --form-button-background-hover: #444;
+    --form-button-background-active: #555;
+    --form-button-background-active-dark: #3b3b3b;
+    --form-button-background-shine: rgba(255, 255, 255, 0.1);
+    --form-button-border-width: 2px;
+    --form-button-border-color: white;
+    --config-button-brightness: 1;
+    --config-button-brightness-hover: 0.5;
+    --floating-window-background:
+        rgba(20, 20, 20, 1);
+    --floating-window-border-color: white;
+    --background: black;
+    --background-size: 100% 100%;
+}
+
+[data-theme="yellow"] {
+    --accent-color: yellow;
+    --text-color: yellow;
+    --form-button-text-color: yellow;
+    --form-button-background: black;
+    --form-button-background-hover: #444;
+    --form-button-background-active: #555;
+    --form-button-background-active-dark: #3b3b3b;
+    --form-button-background-shine: rgba(255, 255, 255, 0.1);
+    --form-button-border-width: 2px;
+    --form-button-border-color: yellow;
+    --config-button-brightness: 1;
+    --config-button-brightness-hover: 0.5;
+    --floating-window-background:
+        rgba(20, 20, 20, 1);
+    --floating-window-border-color: yellow;
+    --background: black;
+    --background-size: 100% 100%;
+}
+
+[data-theme="contrast-yellow"] {
+    --accent-color: yellow;
+    --text-color: yellow;
+    --form-button-text-color: yellow;
+    --form-button-background: black;
+    --form-button-background-hover: #444;
+    --form-button-background-active: #555;
+    --form-button-background-active-dark: #3b3b3b;
+    --form-button-background-shine: rgba(255, 255, 255, 0.1);
+    --form-button-border-width: 2px;
+    --form-button-border-color: yellow;
+    --config-button-brightness: 1;
+    --config-button-brightness-hover: 0.5;
+    --floating-window-background:
+        rgba(20, 20, 20, 1);
+    --floating-window-border-color: yellow;
+    --background: black;
+    --background-size: 100% 100%;
+}
