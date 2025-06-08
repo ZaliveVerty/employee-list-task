@@ -30,6 +30,10 @@
     "home.table.column.joined": "Pievienojās",
     "home.table.column.title": "Amats",
     "home.table.column.email": "E-pasts",
+    "home.table.data.additional-information": "Papildu informācija",
+    "home.table.data.department": "Nodaļa: ",
+    "home.table.data.phone": "Tālrunis: ",
+    "home.table.data.hourly-pay": "Stundas likme: ",
     "accessibility.font-scale": "Fonta izmērs",
     "accessibility.contrast": "Kontrasts"
 }

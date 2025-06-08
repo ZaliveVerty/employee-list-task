@@ -55,10 +55,13 @@ function addEmployeeToTable(employee, table) {
     detailRow.innerHTML = `
         <td colspan="6" class="detail-row">
             <div>
-                <h4>Additional Information</h4>
-                <p><strong>Department:</strong> ${employee.department || 'N/A'}</p>
-                <p><strong>Phone:</strong> ${employee.phone || 'N/A'}</p>
-                <p><strong>Hourly pay:</strong> ${employee.hourlyPay || 'N/A'}</p>
+                <h4 language-code="home.table.data.additional-information">Additional Information</h4>
+                <h4 style="display: inline;" language-code="home.table.data.department">Department: </h4>
+                <p style="display: inline;">${employee.department || 'N/A'}</p></br>
+                <h4 style="display: inline;" language-code="home.table.data.phone">Phone: </h4>
+                <p style="display: inline;">${employee.phone || 'N/A'}</p></br>
+                <h4 style="display: inline;" language-code="home.table.data.hourly-pay">Hourly pay: </h4>
+                <p style="display: inline;">${employee.hourlyPay || 'N/A'}</p>
             </div>
         </td>
     `;
