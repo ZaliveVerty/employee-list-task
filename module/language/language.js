@@ -78,8 +78,6 @@ class LanguagePack {
         }
 
         this.currentLanguageId = id;
-
-        this.currentLanguage = id;
         const language = this.languages.get(id);
 
         document.title = language.get("home.title")

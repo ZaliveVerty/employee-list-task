@@ -33,7 +33,7 @@ function searchTable() {
         const actualSearchTerm = searchTerm.substring(colonIndex + 1);
         
         // Get all header cells to find matching column
-        const headerCells = table.getElementsByTagName('th');
+        const headerCells = document.getElementById("employee-table").getElementsByTagName('th');
         for (let i = 0; i < headerCells.length; i++) {
             const headerId = headerCells[i].id;
             // Extract the last part of the id (e.g., "first-name" from "home.table.column.first-name")
@@ -45,6 +45,9 @@ function searchTable() {
             }
         }
     }
+
+    console.log(targetColumnId);
+    console.log(searchTerm);
 
     const employeeRows = document.querySelectorAll('.employee-row');
     let visibleRows = 0;
@@ -101,9 +104,9 @@ function searchTable() {
             row.style.display = 'none';
         });
 
-        noResults.style.display = 'block';
+        document.getElementById("no-results-div").style.display = 'block';
     } else {
-        noResults.style.display = 'none';
+        document.getElementById("no-results-div").style.display = 'none';
     }
 }
 
